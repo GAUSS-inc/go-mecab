@@ -1,0 +1,27 @@
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/comail/colog"
+
+[[constraint]]
+  name = "github.com/labstack/echo"
+  version = "3.3.5"
+
+[[constraint]]
+  name = "gopkg.in/go-playground/validator.v9"
+  version = "v9.17.1"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/swaggo/echo-swagger"
+
+[[constraint]]
+  name = "github.com/fatih/structs"
+  version = "1.0.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/shogo82148/go-mecab"
